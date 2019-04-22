@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/card_bg_2"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        android:layout_margin="5dp"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/roundbutton"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:text="14"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/month"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="SEP"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="120dp"
+        android:layout_marginLeft="80dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textColor="#000000"
+            android:text="TITLE"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#313131"
+            android:text="DESCRIPTION"
+            android:layout_below="@id/title" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/amount"
+        android:layout_width="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_alignParentRight="true"
+        android:padding="5dp"
+        android:layout_height="100dp"
+        android:background="@drawable/roundbutton"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:text="300.0"
+        android:textStyle="bold" />
+
+</RelativeLayout>
